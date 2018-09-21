@@ -29,6 +29,15 @@ button {
     font-family: 'Oswald', sans-serif;
 }
 
+li {
+    list-style: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1100px;
+}
 
 
 
@@ -41,7 +50,57 @@ HEADER
 header {
     background: #161616;
     height: 80px;
+}
 
+header .wrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-right: auto;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background: url('./img/logo.svg');
+    background-size: contain;
+}
+
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+
+
+
+
+.menu a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.icon-container {
+    height: 30px;
+    flex: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 
 
