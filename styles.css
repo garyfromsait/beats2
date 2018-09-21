@@ -1,0 +1,29 @@
+/* * * * * * * * * * * * * * 
+GENERAL
+* * * * * * * * * * * * * * * * */
+
+/* 
+black - #161616
+red - #e01e3c
+white = #fff
+*/
+h1, h2, h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+button {
+    font-family: 'Oswald', sans-serif;
+}
