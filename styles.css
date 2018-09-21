@@ -114,12 +114,50 @@ HERO
 
 .hero {
     height: 600px;
-
     background: url('./img/hero-large.jpg');
     background-size: cover;
     background-position: center;
-    
+    color: white;
+    display: flex;
 }
+
+.hero .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.hero p {
+    max-width: 800px;
+}
+
+.button-container {
+    margin: 40px 0 80px;
+}
+
+button {
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 5px 35px ;
+    color: white;
+    background: #161616;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-right: 20px;
+}
+
+
+.red-button {
+    background: #e01e3c;
+    border-color: #e01e3c;
+}
+
+
+
+
+
 
 
 
