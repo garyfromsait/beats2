@@ -1,12 +1,13 @@
 /* * * * * * * * * * * * * * 
 GENERAL
-* * * * * * * * * * * * * * * * */
+* * * * * * * * * * * * * */
 
 /* 
 black - #161616
 red - #e01e3c
 white = #fff
 */
+
 h1, h2, h3 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
@@ -26,4 +27,98 @@ h3 {
 
 button {
     font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+
+/* * * * * * * * * * * * * * 
+HEADER
+* * * * * * * * * * * * * */
+
+header {
+    background: #161616;
+    height: 80px;
+
+}
+
+
+
+
+
+
+/* * * * * * * * * * * * * * 
+HERO
+* * * * * * * * * * * * * */
+
+.hero {
+    height: 600px;
+
+    background: url('./img/hero-large.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+/* * * * * * * * * * * * * * 
+FEATURED PRODUCTS
+* * * * * * * * * * * * * */
+
+.featured-products {
+    height: 200px;
+    
+}
+
+
+
+
+
+/* * * * * * * * * * * * * * 
+SHOWCASE PRODUCT
+* * * * * * * * * * * * * */
+
+.showcase-product {
+    height: 200px;
+    
+}
+
+
+
+
+/* * * * * * * * * * * * * * 
+PRODUCT SUUPORT
+* * * * * * * * * * * * * */
+
+.product-support {
+    height: 200px;
+    
+}
+
+
+
+/* * * * * * * * * * * * * * 
+JOIN FORM
+* * * * * * * * * * * * * */
+
+.join-form {
+    height: 200px;
+    
+}
+
+
+
+
+/* * * * * * * * * * * * * * 
+FOOTER
+* * * * * * * * * * * * * */
+
+footer {
+    background: #222;
+    height: 200px;
+    
 }
