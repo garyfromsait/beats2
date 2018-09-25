@@ -12,7 +12,7 @@ body {
     background: #f7f7f8;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
 }
@@ -29,8 +29,17 @@ h3 {
     font-size: 36px;
 }
 
+h4 {
+    font-size: 20px;
+}
+
 button {
     font-family: 'Oswald', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -328,7 +337,49 @@ FOOTER
 * * * * * * * * * * * * * */
 
 footer {
-    background: #222;
-    height: 200px;
+    padding: 120px 0;
+}
+
+footer .wrapper {
+    display: flex;
+}    
+
+.footer-card {
+    flex: 1;
+    margin: 2px;
+}
+
+footer a, footer p {
+    font-family: 'Oswald', sans-serif;
+    color: #888;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 0;
+    font-size: 0.8em;
+}
+
+.social-icons {
+    max-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
     
+}
+
+
+
+
+@media (max-width: 735px) {
+    footer .wrapper {
+        flex-direction: column;
+        align-items: center;
+
+    } 
+
+    .footer-card {
+        max-width: 300px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }
